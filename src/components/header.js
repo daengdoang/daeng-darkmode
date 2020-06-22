@@ -6,10 +6,6 @@ import Icon from './icon'
 
 const links = [
   {
-    title: 'Home',
-    href: '/',
-  },
-  {
     title: 'About',
     href: '/about',
   },
@@ -61,7 +57,9 @@ const LinksItem = styled.li`
 
 const Header = ({ isDark, setIsDark }) => (
   <Container>
-    <h1>dae.ng</h1>
+    <a class="icon-daeng" href="/">
+      <h1>dae.ng</h1>
+    </a>
     <Links>
       {links.map(link => (
         <LinksItem key={link.href}>
