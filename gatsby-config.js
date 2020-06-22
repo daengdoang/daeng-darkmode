@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `John Doe`,
-    description: `John's Personal Website`,
-    author: `Somesh Kar @someshkar <somesh.kar@gmail.com>`,
+    title: `Daeng Muhammad Feisal - Product Designer`,
+    description: `Daeng's Personal Website`,
+    author: `Daeng M. Feisal @daengdoang <daengdoang@gmail.com>`,
   },
   pathPrefix: `/gatsby-starter-darkmode`,
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe`,
-        short_name: `John's Website`,
+        name: `Daeng Muhammad Feisal`,
+        short_name: `Daeng's Website`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

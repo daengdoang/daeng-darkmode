@@ -2,31 +2,6 @@ import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
-import Icon from './icon'
-
-const links = [
-  {
-    title: 'Home',
-    href: '/',
-  },
-  {
-    title: 'About',
-    href: '/about',
-  },
-  {
-    title: 'Works',
-    href: '/works',
-  },
-  {
-    title: 'Talks',
-    href: '/talks',
-  },
-  {
-    title: 'Contact',
-    href: '/contact',
-  },
-]
-
 const Container = styled.div`
   max-width: 100vw;
   height: 17vh;
@@ -53,28 +28,39 @@ const LinksItem = styled.li`
   padding: 0;
   margin: 0;
   display: inline-block;
-  margin-left: 18px;
+  margin-left: 12px;
+  margin-right: 12px;
   cursor: pointer;
   color: ${props => props.theme.colors.textColor};
   user-select: none;
 `
 
-const Header = ({ isDark, setIsDark }) => (
+const Footer = ({ isDark, setIsDark }) => (
   <Container>
-    <h1>dae.ng</h1>
-    <Links>
-      {links.map(link => (
-        <LinksItem key={link.href}>
-          <Link class="headertext"
-            to={link.href}
-          >
-            {link.title}
-          </Link>
+  <h4 class="footertext">© 2020 Daeng Muhammad Feisal</h4>
+  <Links >
+    <LinksItem>
+        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        Dribbble
+        </Link>
+    </LinksItem>/
+    <LinksItem>
+        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        Github
+        </Link>
+    </LinksItem>/
+    <LinksItem>
+        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        Twitter
+        </Link>
+    </LinksItem>/
+    <LinksItem>
+        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        Pinterest
+        </Link>
         </LinksItem>
-      ))}
-    </Links>
-    <Icon isDark={isDark} setIsDark={setIsDark} />
+  </Links>
   </Container>
 )
 
-export default Header
+export default Footer

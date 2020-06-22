@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import styled, { ThemeProvider } from 'styled-components'
 
 import Header from './header'
+import Footer from './footer'
 
 import lightTheme from '../themes/light'
 import darkTheme from '../themes/dark'
@@ -36,6 +37,7 @@ const Layout = ({ children }) => {
       <Container>
         <Header isDark={isDark} setIsDark={setIsDark} />
         <main>{children}</main>
+        <Footer isDark={isDark} setIsDark={setIsDark}/>
       </Container>
     </ThemeProvider>
   )
