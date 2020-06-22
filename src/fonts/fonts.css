@@ -2,7 +2,7 @@
     font-family: CircularStd;
     font-weight: 400;
     font-style: normal;
-    src: url("CircularStd-Medium.otf") format("otf"), url("CircularStd-Medium.ttf") format("ttf");
+    src: url("CircularStd-Medium.otf") format("otf"), url("CircularStd-Medium.ttf") format("truetype");
     font-display: swap;
   }
   @font-face {
@@ -10,13 +10,13 @@
     font-weight: 400;
     font-style: italic;
     src: url("CircularStd-MediumItalic.otf") format("otf"), url("CircularStd-MediumItalic.ttf")
-        format("ttf");
+        format("truetype");
     font-display: swap;
   }
   @font-face {
     font-family: CircularStd;
     font-weight: 700;
     font-style: normal;
-    src: url("CircularStd-Bold.otf") format("otf"), url("CircularStd-Bold.ttf") format("ttf");
+    src: url("CircularStd-Bold.otf") format("otf"), url("CircularStd-Bold.ttf") format("truetype");
     font-display: swap;
   }
