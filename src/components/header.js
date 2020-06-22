@@ -42,6 +42,7 @@ const Links = styled.ul`
   margin: 0;
   cursor: default;
   text-align: center;
+  display: grid block;
 
 `
 

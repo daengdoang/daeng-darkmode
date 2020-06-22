@@ -1,12 +1,12 @@
 @font-face {
-  font-family: CircularStd;
+  font-family: 'CircularStd';
   font-weight: 400;
   font-style: normal;
   src: url("/../../CircularStd-Black.otf") format("otf"), url("/../../fonts/CircularStd-Medium.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
-  font-family: CircularStd;
+  font-family: 'CircularStd';
   font-weight: 400;
   font-style: italic;
   src: url("/../../CircularStd-MediumItalic.otf") format("otf"), url("/../../CircularStd-MediumItalic.ttf")
@@ -14,7 +14,7 @@
   font-display: swap;
 }
 @font-face {
-  font-family: CircularStd;
+  font-family: 'CircularStd';
   font-weight: 700;
   font-style: normal;
   src: url("/../../CircularStd-Bold.otf") format("otf"), url("/../../CircularStd-Bold.ttf") format("truetype");
@@ -38,6 +38,7 @@ a:hover {
 
 .icon-daeng:hover {
   transform: scale(1.1);
+  text-decoration: none;
 }
 
 
@@ -48,6 +49,51 @@ a:hover {
 
 .works-text {
   font-size: 3.5em;
+}
+
+.upi-text {
+  color: red;
+}
+
+.upi-text:hover {
+  color: white;
+  background-color: red;
+  text-decoration: none;
+}
+
+.cashbac-text {
+  color: #26ade4;
+}
+
+.cashbac-text:hover {
+  color: white;
+  background-color: #26ade4;
+  text-decoration: none;
+}
+
+.labtekindie-text {
+  color: #e5007e;
+}
+
+.labtekindie-text:hover {
+  color: white;
+  background-color: #e5007e;
+  text-decoration: none;
+}
+
+.map-text {
+  color: #ed7b30;
+}
+
+.map-text:hover {
+  color: white;
+  background-color: #ed7b30;
+  text-decoration: none;
+}
+
+
+.talks-text {
+  font-size: 2.5em;
 }
 
 .bigtext2 {

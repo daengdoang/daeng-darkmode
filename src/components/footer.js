@@ -37,7 +37,7 @@ const LinksItem = styled.li`
 
 const Footer = ({ isDark, setIsDark }) => (
   <Container>
-  <h4 class="footertext">© 2020 Daeng Muhammad Feisal</h4>
+  <h4>© 2020 Daeng Muhammad Feisal</h4>
   <Links >
     <LinksItem>
         <a class="footertext" href='https://www.dribbble.com/daengdoang'>

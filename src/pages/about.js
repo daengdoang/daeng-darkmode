@@ -26,7 +26,11 @@ const AboutPage = () => (
         <p class="bigtext2">
             I am a Product Designer from Indonesia.
             <br></br>
-            I received my Bachelor in of Computer Science from <a href="https://cs.upi.edu/">Universitas Pendidikan Indonesia</a>.
+            Currently shifting and learning Product Management role.
+            <br></br>
+            I had worked from freelance front-end dveloper to in-house designer. Like <a class="cashbac-text" href="https://cashbac.com/" target="_blank">Cashbac</a>, <a class="labtekindie-text" href="https://labtekindie.com/" target="_blank">Labtek Indie</a>, XPRSV, <a class="map-text" href="https://mizanapps.com/" target="_blank">Mizan Apps Publisher</a>, Mitra Digital and Jojodog Studio.
+            <br></br>
+            I received my Bachelor of Computer Science from <a class="upi-text" href="http://ww.cs.upi.edu/v2/" target="_blank">Universitas Pendidikan Indonesia</a>.
        </p>
     </Container1>
   </Layout>
