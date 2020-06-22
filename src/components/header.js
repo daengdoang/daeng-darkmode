@@ -57,9 +57,9 @@ const LinksItem = styled.li`
 
 const Header = ({ isDark, setIsDark }) => (
   <Container>
-    <a class="icon-daeng" href="/">
+    <Link to="/" class="icon-daeng">
       <h1>dae.ng</h1>
-    </a>
+    </Link>
     <Links>
       {links.map(link => (
         <LinksItem key={link.href}>

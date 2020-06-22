@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { Link } from 'gatsby'
 
 const Container1 = styled.div`
   max-width: 100vw;
@@ -38,12 +39,17 @@ const IndexPage = () => (
     <SEO title="Homepage - Daeng Muhammad Feisal" />
     <Container1>
       <h3 class="bigtext3">Daeng Muhammad Feisal - Product Designer from Indonesia</h3>
-      <h1 class="bigtext">Crafting meaningful digital experiences through design</h1>
-      <a href="/about">
-      <button class="cta1">
-          About Me
-      </button>
-      </a>
+      <h1 class="bigtext">
+        Empathize,<br></br>
+        Design,<br></br>
+        Repeat.</h1>
+      <Link to="/about" class="icon-daeng">
+        <button class="cta1">
+            View Profile
+        </button>
+      </Link>
+
+
       <button class="cta1">Resume</button>
     </Container1>
     <hr></hr>

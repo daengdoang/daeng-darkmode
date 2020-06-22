@@ -30,10 +30,9 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-  font-size: 18px;
 }
 
-a:after {
+a:hover {
   text-decoration: underline;
 }
 
@@ -79,7 +78,7 @@ a:after {
   text-decoration: underline;
 }
 
-.headertext:after {
+.headertext:active {
   font-size: 18px;
   font-weight: 500;
   color: black;
@@ -99,8 +98,6 @@ a:after {
   color: inherit;
   text-decoration: underline;
 }
-
-
 
 .cta1 {
   appearance: button;

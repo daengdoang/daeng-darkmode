@@ -40,24 +40,24 @@ const Footer = ({ isDark, setIsDark }) => (
   <h4 class="footertext">© 2020 Daeng Muhammad Feisal</h4>
   <Links >
     <LinksItem>
-        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        <a class="footertext" href='https://www.dribbble.com/daengdoang'>
         Dribbble
-        </Link>
+        </a>
     </LinksItem>/
     <LinksItem>
-        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        <a class="footertext" href='https://www.github.com/daengdoang'>
         Github
-        </Link>
+        </a>
     </LinksItem>/
     <LinksItem>
-        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        <a class="footertext" href='https://www.twitter.com/daengdoang'>
         Twitter
-        </Link>
+        </a>
     </LinksItem>/
     <LinksItem>
-        <Link class="footertext" to='https://www.dribbble.com/daengdoang'>
+        <a class="footertext" href='https://www.pinterest.com/daengdoang'>
         Pinterest
-        </Link>
+        </a>
         </LinksItem>
   </Links>
   </Container>

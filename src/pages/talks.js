@@ -21,17 +21,16 @@ const TalksPage = () => (
     <Container1>
     <SEO title="About Daeng Muhammad Feisal" />
     <h3 class="bigtext">I love to sharing.</h3>
-        <p class="bigtext2">
-            Hi, my name is Daeng. 
-            I am a fresh graduate from Bachelor of Computer Science at Indonesia University of Education, Bandung.
-            I have been designing since high school, from there I got opportunity to working freelance and part-time in various startup and agency – local and international.
-        </p>
-        <p class="paragraph1">
-            I’m passionate about all areas of design and I believe in design as a better approach to solving human problem. My interests in design include interaction design, accessibility, and technological design.
-            In between my works, I do front-end development and mentoring designer to code. I believe with coding, designer can create more impactful experiences by embracing the technicalities that make it happens. 
-            I enjoy writing HTML, CSS, Javascript and React.
-            I’m always excited to connect with everyone and am open to speaking opportunities, so please don’t hesitate to get in touch. Anyway, thanks for viewing my portfolio!
-        </p>
+    <h1 class="works-text">Information Architecture - Dribbble Surabaya</h1>
+    <hr></hr>
+    <h1 class="works-text">Information Architecture - Quix Bootcamp #2 2020</h1>
+    <hr></hr>
+    <h1 class="works-text">Information Architecture - Quix Bootcamp #1 2019</h1>
+    <hr></hr>
+    <h1 class="works-text">UXID Conference 2019 Web</h1>
+    <hr></hr>
+    <h1 class="works-text">Vending Machine Ultrajaya</h1>
+    <hr></hr>
     </Container1>
   </Layout>
 );
