@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 const Container1 = styled.div`
   max-width: 100vw;
   margin: 0 10rem;
-
+  margin-top: 10rem;
   align-items: center;
   justify-content: space-between;
   background-color: ${props => props.theme.colors.background};
@@ -34,10 +34,13 @@ const TalksPage = () => (
     <hr></hr>
     <h1 class="talks-text">Information Architecture - Quix Bootcamp #1 2019</h1>
     <hr></hr>
-    <h1 class="talks-text">UXID Conference 2019 Web</h1>
+    <h1 class="talks-text">Create the Foundation of an App - UX Wannabe #5 Rasi.co</h1>
     <hr></hr>
-    <h1 class="talks-text">Vending Machine Ultrajaya</h1>
+    <h1 class="talks-text">Content Strategy - UI/UX Class @ Talent Bandung</h1>
     <hr></hr>
+    <h1 class="talks-text">Information Architecture - UI/UX Class @ Talent Bandung</h1>
+    <hr></hr>
+    <h1 class="talks-text">User Interface Design - UI/UX Class @ Talent Bandung</h1>
     </Container1>
   </Layout>
 );
