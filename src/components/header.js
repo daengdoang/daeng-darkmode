@@ -40,7 +40,7 @@ const Links = styled.ul`
   list-style-type: none;
   margin: 0;
   margin-left: auto;
-  margin-right: 2em;
+  padding-right: 40px;
   cursor: default;
   text-align: center;
   display: grid block;
@@ -60,7 +60,7 @@ const LinksItem = styled.li`
 const Header = ({ isDark, setIsDark }) => (
   <Container>
     <Link to="/">
-      <h1 class="icon-daeng">dae.ng</h1>
+      <span class="icon-daeng">dae.ng</span>
     </Link>
     <Links>
       {links.map(link => (

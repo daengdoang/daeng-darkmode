@@ -44,7 +44,7 @@ const IndexPage = () => (
         Design,<br></br>
         Repeat.
       </h1>
-      <p>I transform thorny problems into delightful solutions using visual design, rapid prototyping, and interaction design skills.</p>
+      <p>I transform thorny problems into delightful solutions using visual design, rapid prototyping, <br></br>and interaction design skills.</p>
       <Link to="/about">
         <button class="cta1">
             View Profile

@@ -37,12 +37,8 @@ a:hover {
 }
 
 .icon-daeng {
-  transform: scale(1.1);  
-}
-
-.icon-daeng:hover {
-  transform: scale(1.1);
-  text-decoration: none;
+  font-size: 2em;
+  font-weight: 500;
 }
 
 .works-text {
@@ -95,6 +91,7 @@ a:hover {
 
 .bigtext {
   font-size: 5em;
+  margin-top: 24px;
   margin-bottom: 24px;
   animation: 1s cubic-bezier(0.19, 1, 0.22, 1) 0.5s 1 normal backwards running fadeInBottom;
 }
