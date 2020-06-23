@@ -48,14 +48,23 @@ const IndexPage = () => (
             View Profile
         </button>
       </Link>
-
-
       <button class="cta1">Resume</button>
     </Container1>
     <hr></hr>
     <Container2>
       <h3 class="bigtext2">Selected Work</h3>
       <h1 class="bigtext">Kindly check my featured works</h1>
+      <Link to="/works" class="icon-daeng">
+        <button class="cta1">
+            View Works
+        </button>
+      </Link>
+      <a href='https://behance.net/daengdoang' target="_blank" rel="noopener noreferrer">
+        <button class="cta-behance">Behance</button>
+      </a>
+      <a href='https://dribbble.com/daengdoang' target="_blank" rel="noopener noreferrer">
+        <button class="cta-dribbble">Dribbble</button>
+      </a>
     </Container2>
 
 

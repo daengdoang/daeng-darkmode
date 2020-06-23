@@ -161,3 +161,36 @@ a:hover {
 .cta1:hover {
   background-color: #ffe500;
 }
+
+.cta-behance {
+  appearance: button;
+  height: 52px;
+  border-radius: 10px;
+  border-width: 0;
+  padding: 16px;
+  margin-right: 24px;
+  font-weight: 700;;
+}
+
+.cta-behance:hover {
+  background-color: #0057ff;
+  color: white;
+}
+
+.cta-dribbble {
+  appearance: button;
+  height: 52px;
+  border-radius: 10px;
+  border-width: 0;
+  padding: 16px;
+  margin-right: 24px;
+  font-weight: 700;;
+}
+
+.cta-dribbble:hover {
+  background-color: #ea4c89;
+  color: white;
+}
+
+
+

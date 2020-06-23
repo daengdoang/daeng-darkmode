@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -40,25 +39,25 @@ const Footer = ({ isDark, setIsDark }) => (
   <h4>© 2020 Daeng Muhammad Feisal</h4>
   <Links >
     <LinksItem>
-        <a class="footertext" href='https://www.dribbble.com/daengdoang' target="_blank">
-        Dribbble
+        <a class="footertext" href='https://www.linkedin.com/in/daengdoang' target="_blank" rel="noopener noreferrer">
+        LinkedIn
         </a>
     </LinksItem>/
     <LinksItem>
-        <a class="footertext" href='https://www.github.com/daengdoang' target="_blank">
+        <a class="footertext" href='https://www.github.com/daengdoang' target="_blank" rel="noopener noreferrer">
         Github
         </a>
     </LinksItem>/
     <LinksItem>
-        <a class="footertext" href='https://www.twitter.com/daengdoang' target="_blank">
+        <a class="footertext" href='https://www.twitter.com/daengdoang' target="_blank" rel="noopener noreferrer">
         Twitter
         </a>
     </LinksItem>/
     <LinksItem>
-        <a class="footertext" href='https://www.pinterest.com/daengdoang' target="_blank">
+        <a class="footertext" href='https://www.pinterest.com/daengdoang' target="_blank" rel="noopener noreferrer">
         Pinterest
         </a>
-        </LinksItem>
+    </LinksItem>
   </Links>
   </Container>
 )

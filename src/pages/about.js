@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { Link } from 'gatsby'
 
 const Container1 = styled.div`
   max-width: 100vw;
@@ -31,9 +30,9 @@ const AboutPage = () => (
             Currently shifting and learning Product Management role.
             <br></br>
             <br></br>
-            I had worked from freelance front-end developer to in-house UX designer. From Agency, Corporate to Startup like <a class="cashbac-text" href="https://cashbac.com/" target="_blank">Cashbac</a>, <a class="labtekindie-text" href="https://labtekindie.com/" target="_blank">Labtek Indie</a>, XPRSV, <a class="map-text" href="https://mizanapps.com/" target="_blank">Mizan Apps Publisher</a>, Mitra Digital and Jojodog Studio.
+            I had worked from freelance front-end developer to in-house UX designer. From Agency, Corporate to Startup like <a class="cashbac-text" href="https://cashbac.com/" target="_blank" rel="noopener noreferrer">Cashbac</a>, <a class="labtekindie-text" href="https://labtekindie.com/" target="_blank" rel="noopener noreferrer">Labtek Indie</a>, XPRSV, <a class="map-text" href="https://mizanapps.com/" target="_blank" rel="noopener noreferrer">Mizan Apps Publisher</a>, Mitra Digital and Jojodog Studio.
             <br></br>
-            I received my Bachelor of Computer Science from <a class="upi-text" href="http://ww.cs.upi.edu/v2/" target="_blank">Universitas Pendidikan Indonesia</a>.
+            I received my Bachelor of Computer Science from <a class="upi-text" href="http://ww.cs.upi.edu/v2/" target="_blank" rel="noopener noreferrer">Universitas Pendidikan Indonesia</a>.
             <hr></hr>
        </p>
     </Container1>
