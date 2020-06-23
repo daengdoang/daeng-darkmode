@@ -42,8 +42,10 @@ const IndexPage = () => (
       <h1 class="bigtext">
         Empathize,<br></br>
         Design,<br></br>
-        Repeat.</h1>
-      <Link to="/about" class="icon-daeng">
+        Repeat.
+      </h1>
+      <p>I transform thorny problems into delightful solutions using visual design, rapid prototyping, and interaction design skills.</p>
+      <Link to="/about">
         <button class="cta1">
             View Profile
         </button>
@@ -54,7 +56,7 @@ const IndexPage = () => (
     <Container2>
       <h3 class="bigtext2">Selected Work</h3>
       <h1 class="bigtext">Kindly check my featured works</h1>
-      <Link to="/works" class="icon-daeng">
+      <Link to="/works" >
         <button class="cta1">
             View Works
         </button>
@@ -62,9 +64,11 @@ const IndexPage = () => (
       <a href='https://behance.net/daengdoang' target="_blank" rel="noopener noreferrer">
         <button class="cta-behance">Behance</button>
       </a>
+    
       <a href='https://dribbble.com/daengdoang' target="_blank" rel="noopener noreferrer">
         <button class="cta-dribbble">Dribbble</button>
       </a>
+
     </Container2>
 
 

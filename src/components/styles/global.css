@@ -36,11 +36,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.icon-daeng {
+  transform: scale(1.1);  
+}
+
 .icon-daeng:hover {
   transform: scale(1.1);
   text-decoration: none;
 }
-
 
 .works-text {
   font-size: 3.5em;
@@ -92,6 +95,7 @@ a:hover {
 
 .bigtext {
   font-size: 5em;
+  margin-bottom: 24px;
   animation: 1s cubic-bezier(0.19, 1, 0.22, 1) 0.5s 1 normal backwards running fadeInBottom;
 }
 

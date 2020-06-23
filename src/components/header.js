@@ -1,7 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-
 import Icon from './icon'
 
 const links = [
@@ -29,7 +28,7 @@ const Container = styled.div`
   margin: 0 10rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: ${props => props.theme.colors.background};
   transition: all 0.5s ease-out;
   @media only screen and (max-width: 768px) {
@@ -40,6 +39,8 @@ const Container = styled.div`
 const Links = styled.ul`
   list-style-type: none;
   margin: 0;
+  margin-left: auto;
+  margin-right: 2em;
   cursor: default;
   text-align: center;
   display: grid block;
@@ -58,8 +59,8 @@ const LinksItem = styled.li`
 
 const Header = ({ isDark, setIsDark }) => (
   <Container>
-    <Link to="/" class="icon-daeng">
-      <h1>dae.ng</h1>
+    <Link to="/">
+      <h1 class="icon-daeng">dae.ng</h1>
     </Link>
     <Links>
       {links.map(link => (
