@@ -41,10 +41,6 @@ a:hover {
   text-decoration: none;
 }
 
-.bigtext {
-  font-size: 5em;
-  animation: 1s cubic-bezier(0.19, 1, 0.22, 1) 0.5s 1 normal backwards running fadeInBottom;
-}
 
 .works-text {
   font-size: 3.5em;
@@ -92,6 +88,15 @@ a:hover {
 
 .talks-text {
   font-size: 1.5em;
+}
+
+.bigtext {
+  font-size: 5em;
+  animation: 1s cubic-bezier(0.19, 1, 0.22, 1) 0.5s 1 normal backwards running fadeInBottom;
+}
+
+.bigtext1 {
+  font-size: 3.5em;
 }
 
 .bigtext2 {

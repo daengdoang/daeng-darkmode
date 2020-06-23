@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { Link } from 'gatsby'
 
 const Container1 = styled.div`
   max-width: 100vw;
@@ -21,9 +22,12 @@ const ContactPage = () => (
   <Layout>
     <Container1>
     <SEO title="Contact" />
-    <h3 class="bigtext">I'm always ready for one shot (and more) of espresso!</h3>
+    <h3 class="bigtext1">I'm always ready for one shot (and more) of espresso!</h3>
         <p class="bigtext2">Let’s talk about anything from design, politic, education, social enterprise and about space!</p>
-    <button class="cta1">Email Me</button>
+        <a class="footertext" href='mailto:daengmfeisal@gmail.com' target="_blank">
+        <button class="cta1">Email Me</button>
+        </a>
+    
     </Container1>
 
   </Layout>
